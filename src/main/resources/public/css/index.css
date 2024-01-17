@@ -1,0 +1,186 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.title {
+    font-size: 40px;
+}
+.subtitle {
+    font-size: 20px;
+    color: #9d9d9d;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dataContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.queryBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48%;
+}
+.speechBox {
+    width: 48%;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.speakerBox {
+    width: 100%;
+    height: 80px;
+}
+
+.queryLine {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#speakerInput {
+    width: 300px;
+    height: 36px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 18px 0 0 18px;
+    background: #f7f8f9;
+    outline: none;
+}
+
+#speakerRadioGroup {
+    margin-bottom: 10px;
+}
+
+#speakerList, #speechList, #logHistoryList {
+    height: 300px;
+    overflow-y: auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    display: block;
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#speakerList td,
+#speechList td,
+#logHistoryList td {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#speakerList thead,
+#speechList thead,
+#logHistoryList thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+    z-index: 2;
+}
+
+#speakerList tbody,
+#speechList tbody,
+#logHistoryList tbody {
+    display: block;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+#speakerList tbody tr,
+#speechList body tr,
+#logHistoryList tr {
+    width: 100%;
+}
+
+#speakerList td, #speakerList th,
+#speechList td, #speechList th,
+#logHistoryList td, #logHistoryList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.speakerBtn {
+    height: 36px;
+    border-radius: 0 18px 18px 0;
+}
+
+.dateLine {
+    width: 100%;
+    height: 80px;
+}
+
+.dataSelect {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#dateBtn {
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #8a78c9;
+}
+
+#dateBtn:hover {
+    background-color: #624caf;
+}
+
+#startDatePicker, #endDatePicker {
+    width: 48%;
+    height: 36px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 18px;
+    background: #f7f8f9;
+    outline: none;
+}
+
+#ui-datepicker-div {
+    z-index: 10 !important;
+}
+
+.logContainer {
+    width: 100%;
+}
+
+.buttonGroup {
+    height: 80px;
+}
+
+.buttonGroup .hideBtn {
+    background-color: #65c2c5;
+    margin-left: 10px;
+}
+
+.buttonGroup .hideBtn:hover {
+    background-color: cadetblue;
+}
