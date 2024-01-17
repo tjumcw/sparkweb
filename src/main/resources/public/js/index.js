@@ -93,7 +93,7 @@ $(document).ready(function () {
             field: searchType
         };
         const logData = {
-            queryType: "speaker-" + searchType,
+            queryType: "speaker-" + (searchType == "_id" ? "id" : searchType),
             queryValue: formData,
             queryTime: getCurrentDateStr(new Date()),
         };
@@ -308,7 +308,6 @@ $(document).ready(function () {
                 queryValue: tds[1].innerText,
                 queryTime: tds[2].innerText,
             }
-            console.log(data)
             logHistoryList.push(data)
             let btn = this.querySelector('button');
             btn.addEventListener('click', function () {

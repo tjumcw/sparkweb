@@ -71,6 +71,7 @@
 }
 
 #speakerList, #speechList, #logHistoryList {
+    position: relative;
     height: 300px;
     overflow-y: auto;
     border-collapse: collapse;

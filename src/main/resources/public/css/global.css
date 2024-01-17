@@ -32,8 +32,3 @@ button {
     cursor: pointer; /* 添加指针样式 */
     transition: background-color 0.3s ease; /* 添加过渡效果 */
 }
-
-/* 鼠标悬停时的按钮样式 */
-button:hover {
-    background-color: #45a049; /* 更改背景颜色 */
-}
