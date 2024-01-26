@@ -39,7 +39,7 @@ public class XMIReader {
         ELEMENT_PARSER_MAP.put("dependency:ROOT", new ROOTParser());
         ELEMENT_PARSER_MAP.put("type4:NamedEntity", new NamedEntityParser());
 
-        speech_test = MongoDBUtils.getCollection("speech_test");
+        speech_test = MongoDBUtils.getCollection("speech");
         // 可以继续注册其他类型的解析器
     }
     public static void syncDataToDB() {

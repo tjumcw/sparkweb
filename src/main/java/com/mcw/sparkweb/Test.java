@@ -16,8 +16,8 @@ import java.util.List;
 public class Test {
 
     public static void main(String[] args) {
-        MongoCollection<Document> speech_test = MongoDBUtils.getCollection("speech_test");
-        List<Document> into = speech_test.find().into(new ArrayList<>());
-        System.out.println(into.size());
+        MongoCollection<Document> speech_test = MongoDBUtils.getCollection("speech");
+        List<Document> into = speech_test.find(new Document("_id", "20100100")).into(new ArrayList<>());
+        System.out.println(into);
     }
 }
