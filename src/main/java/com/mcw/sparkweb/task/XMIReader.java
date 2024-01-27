@@ -18,6 +18,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static com.mcw.sparkweb.common.utils.MongoDBUtils.updateDocumentWithJson;
+
 public class XMIReader {
 
     private static final Map<String, BaseParser> ELEMENT_PARSER_MAP = new HashMap<>();
@@ -61,7 +63,7 @@ public class XMIReader {
     private static void processXMIFile(File file) {
         try {
             System.out.println("File: " + file.getName() + "开始");
-            String speechId  = file.getName().split("\\.")[0].replaceAll("ID", "");
+            String speechId  = file.getName().split("\\.")[0];
             // 读取 XMI 文件
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -77,12 +79,10 @@ public class XMIReader {
                 List<BasePO> data = parser.parse(nodes);
                 map.put(key.split(":")[1], data);
             }
-            org.bson.Document document = org.bson.Document.parse(JSON.toJSONString(map));
-            document.append("_id", speechId);
             if (speech_test.countDocuments(Filters.eq("_id", speechId)) > 0) {
-                System.out.println(speechId + "对应的document已存在，跳过当前任务");
+                updateDocumentWithJson(speech_test, "_id", speechId, JSON.toJSONString(map));
             } else {
-                MongoDBUtils.insertDocument(speech_test, document);
+                System.out.println(speechId + "对应的document不存在，跳过当前任务");
             }
             System.out.println("File: " + file.getName() + "结束");
 

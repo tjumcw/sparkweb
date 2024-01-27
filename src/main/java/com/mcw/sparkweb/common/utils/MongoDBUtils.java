@@ -2,6 +2,7 @@ package com.mcw.sparkweb.common.utils;
 
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientOptions;
+import com.mongodb.MongoCredential;
 import com.mongodb.ServerAddress;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
@@ -14,10 +15,7 @@ import org.bson.conversions.Bson;
 import java.io.InputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * @author miaochangwei1
@@ -58,7 +56,8 @@ public class MongoDBUtils {
      * @throws IllegalArgumentException 如果数据库名称为空或null
      */
     private static void connect() {
-//        MongoCredential credential = MongoCredential.createCredential(username, databaseName, password.toCharArray());
+        MongoCredential credential = MongoCredential.createCredential(username, databaseName, password.toCharArray());
+
         MongoClientOptions options = MongoClientOptions.builder()
                 .connectionsPerHost(20)
                 .socketTimeout(300000)
@@ -68,9 +67,10 @@ public class MongoDBUtils {
                 .connectTimeout(300000)
                 .sslEnabled(false)
                 .build();
-//        mongoClient = new MongoClient(new ServerAddress(host, port), Collections.singletonList(credential));
         mongoClient = new MongoClient(new ServerAddress(host, port), options);
-        database = mongoClient.getDatabase(databaseName);
+
+        mongoClient = new MongoClient(new ServerAddress(host, port), Collections.singletonList(credential), options);
+//        database = mongoClient.getDatabase(databaseName);
         System.out.println("Connect to database successfully!");
         System.out.println("MongoDatabase info is : " + database.getName());
     }
@@ -219,5 +219,24 @@ public class MongoDBUtils {
         Document query = new Document(field, new Document("$eq", queryValue));
         List<Document> list = collection.find(query).into(new ArrayList<>());
         return list;
+    }
+
+    /**
+     *
+     * @param collection 操作的collection
+     * @param fieldName 待更新文档的查询字段
+     * @param fieldValue 待更新文档查询字段的值
+     * @param json 待更新的json
+     */
+    public static void updateDocumentWithJson(MongoCollection<Document> collection, String fieldName, String fieldValue, String json) {
+
+        // 要更新的document的查询条件
+        Document query = new Document(fieldName, fieldValue); // 替换成你实际的查询条件
+
+        // 要添加的字段和值
+        Document update = new Document("$set", Document.parse(json));
+
+        // 执行更新操作
+        collection.updateOne(query, update);
     }
 }
