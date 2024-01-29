@@ -1,0 +1,610 @@
+<?xml version="1.1" encoding="UTF-8"?><xmi:XMI xmlns:time="http:///org/texttechnologylab/annotation/semaf/isotimeml/time.ecore" xmlns:type12="http:///org/hucompute/textimager/uima/type.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:annotation="http:///org/hucompute/wikidragon/core/nlp/annotation.ecore" xmlns:ged="http:///org/bitbucket/rkilinger/ged.ecore" xmlns:type16="http:///org/texttechnologylab/annotation/context/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:administration="http:///org/texttechnologylab/annotation/administration.ecore" xmlns:type14="http:///org/texttechnologylab/annotation/node/type.ecore" xmlns:activelearner="http:///org/texttechnologylab/annotation/administration/activelearner.ecore" xmlns:schema="http:///org/texttechnologylab/annotation/schema.ecore" xmlns:type17="http:///org/texttechnologylab/annotation/orientation/type.ecore" xmlns:isospace="http:///org/texttechnologylab/annotation/semaf/isospace.ecore" xmlns:iaa="http:///org/texttechnologylab/iaa.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/transform/type.ecore" xmlns:sentence="http:///org/texttechnologylab/annotation/sentence.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:isobase="http:///org/texttechnologylab/annotation/semaf/isobase.ecore" xmlns:type11="http:///org/dkpro/core/api/xml/type.ecore" xmlns:segmentation="http:///org/hucompute/textimager/uima/type/segmentation.ecore" xmlns:ocr="http:///org/texttechnologylab/annotation/ocr.ecore" xmlns:score="http:///org/texttechnologylab/annotation/score.ecore" xmlns:wikidata2="http:///org/texttechnologylab/annotation/type/wikidata.ecore" xmlns:type15="http:///org/texttechnologylab/annotation/attribution/type.ecore" xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:isotimeml="http:///org/texttechnologylab/annotation/semaf/isotimeml.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:semafsr="http:///org/texttechnologylab/annotation/semaf/semafsr.ecore" xmlns:duui="http:///org/texttechnologylab/duui.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:dbpedia="http:///org/texttechnologylab/annotation/type/dbpedia.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:token="http:///org/texttechnologylab/annotation/token.ecore" xmlns:typo="http:///org/texttechnologylab/annotation/typo.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:type13="http:///org/texttechnologylab/annotation/type.ecore" xmlns:meta="http:///org/texttechnologylab/annotation/semaf/meta.ecore" xmlns:knowledge="http:///org/texttechnologylab/annotation/knowledge.ecore" xmlns:wikidata="http:///org/hucompute/textimager/uima/type/wikidata.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:wikipedia="http:///org/hucompute/textimager/uima/type/wikipedia.ecore" xmlns:annotation2="http:///org/texttechnologylab/annotation.ecore" xmlns:category="http:///org/hucompute/textimager/uima/type/category.ecore" xmlns:twitter="http:///org/texttechnologylab/annotation/twitter.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:IsoSpatial="http:///org/texttechnologylab/annotation/semaf/IsoSpatial.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:semantics="http:///org/hucompute/textimager/uima/type/semantics.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/core/io/jwpl/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:concept="http:///org/texttechnologylab/annotation/type/concept.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:Room="http:///org/texttechnologylab/annotation/Room.ecore" xmlns:type18="http:///org/texttechnologylab/annotation/temporal/type.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="13090" begin="0" end="709" language="de"/>
+    <type3:DocumentMetaData xmi:id="6" sofa="13090" begin="0" end="0" documentId="ID2011203100" documentUri="/data/speech/ID2011203100" documentBaseUri="/" isLastSegment="false"/>
+    <annotation2:DocumentModification xmi:id="13097" sofa="13090" user="Giuseppe Abrami" timestamp="1706106741161" comment="NLP processing for exercise 3 in the programming practical course in the winter semester 2023 / 2024; Goethe University Frankfurt."/>
+    <type5:Sentence xmi:id="22" sofa="13090" begin="0" end="76"/>
+    <type5:Sentence xmi:id="27" sofa="13090" begin="77" end="179"/>
+    <type5:Sentence xmi:id="32" sofa="13090" begin="180" end="343"/>
+    <type5:Sentence xmi:id="37" sofa="13090" begin="344" end="345"/>
+    <type5:Sentence xmi:id="42" sofa="13090" begin="345" end="408"/>
+    <type5:Sentence xmi:id="47" sofa="13090" begin="409" end="529"/>
+    <type5:Sentence xmi:id="52" sofa="13090" begin="530" end="695"/>
+    <type5:Sentence xmi:id="57" sofa="13090" begin="696" end="708"/>
+    <type5:Token xmi:id="6574" sofa="13090" begin="0" end="3" parent="6587" lemma="8095" pos="8680" morph="9382" order="0"/>
+    <type5:Token xmi:id="6587" sofa="13090" begin="4" end="10" parent="6587" lemma="8100" pos="8686" morph="9405" order="0"/>
+    <type5:Token xmi:id="6600" sofa="13090" begin="11" end="16" parent="6613" lemma="8105" pos="8692" morph="9428" order="0"/>
+    <type5:Token xmi:id="6613" sofa="13090" begin="17" end="26" parent="6587" lemma="8110" pos="8698" morph="9451" order="0"/>
+    <type5:Token xmi:id="6626" sofa="13090" begin="26" end="27" parent="6587" lemma="8115" pos="8704" morph="9474" order="0"/>
+    <type5:Token xmi:id="6639" sofa="13090" begin="28" end="32" parent="6587" lemma="8120" pos="8710" morph="9497" order="0"/>
+    <type5:Token xmi:id="6652" sofa="13090" begin="32" end="33" parent="6587" lemma="8125" pos="8716" morph="9520" order="0"/>
+    <type5:Token xmi:id="6665" sofa="13090" begin="34" end="37" parent="6678" lemma="8130" pos="8722" morph="9543" order="0"/>
+    <type5:Token xmi:id="6678" sofa="13090" begin="38" end="44" parent="6587" lemma="8135" pos="8728" morph="9566" order="0"/>
+    <type5:Token xmi:id="6691" sofa="13090" begin="44" end="45" parent="6678" lemma="8140" pos="8734" morph="9589" order="0"/>
+    <type5:Token xmi:id="6704" sofa="13090" begin="46" end="49" parent="6730" lemma="8145" pos="8740" morph="9612" order="0"/>
+    <type5:Token xmi:id="6717" sofa="13090" begin="50" end="55" parent="6730" lemma="8150" pos="8746" morph="9635" order="0"/>
+    <type5:Token xmi:id="6730" sofa="13090" begin="56" end="69" parent="6678" lemma="8155" pos="8752" morph="9658" order="0"/>
+    <type5:Token xmi:id="6743" sofa="13090" begin="70" end="75" parent="6678" lemma="8160" pos="8758" morph="9681" order="0"/>
+    <type5:Token xmi:id="6756" sofa="13090" begin="75" end="76" parent="6587" lemma="8165" pos="8764" morph="9704" order="0"/>
+    <type5:Token xmi:id="6769" sofa="13090" begin="77" end="80" parent="6782" lemma="8170" pos="8770" morph="9727" order="0"/>
+    <type5:Token xmi:id="6782" sofa="13090" begin="81" end="86" parent="6782" lemma="8175" pos="8776" morph="9750" order="0"/>
+    <type5:Token xmi:id="6795" sofa="13090" begin="87" end="97" parent="6782" lemma="8180" pos="8782" morph="9773" order="0"/>
+    <type5:Token xmi:id="6808" sofa="13090" begin="98" end="102" parent="6821" lemma="8185" pos="8788" morph="9796" order="0"/>
+    <type5:Token xmi:id="6821" sofa="13090" begin="103" end="108" parent="6782" lemma="8190" pos="8794" morph="9819" order="0"/>
+    <type5:Token xmi:id="6834" sofa="13090" begin="108" end="109" parent="6821" lemma="8195" pos="8800" morph="9842" order="0"/>
+    <type5:Token xmi:id="6847" sofa="13090" begin="110" end="114" parent="6938" lemma="8200" pos="8806" morph="9865" order="0"/>
+    <type5:Token xmi:id="6860" sofa="13090" begin="115" end="118" parent="6938" lemma="8205" pos="8812" morph="9888" order="0"/>
+    <type5:Token xmi:id="6873" sofa="13090" begin="119" end="127" parent="6925" lemma="8210" pos="8818" morph="9911" order="0"/>
+    <type5:Token xmi:id="6886" sofa="13090" begin="128" end="133" parent="6925" lemma="8215" pos="8824" morph="9934" order="0"/>
+    <type5:Token xmi:id="6899" sofa="13090" begin="134" end="137" parent="6925" lemma="8220" pos="8830" morph="9957" order="0"/>
+    <type5:Token xmi:id="6912" sofa="13090" begin="138" end="144" parent="6899" lemma="8225" pos="8836" morph="9980" order="0"/>
+    <type5:Token xmi:id="6925" sofa="13090" begin="165" end="172" parent="6938" lemma="8230" pos="8842" morph="10003" order="0"/>
+    <type5:Token xmi:id="6938" sofa="13090" begin="173" end="178" parent="6821" lemma="8235" pos="8848" morph="10026" order="0"/>
+    <type5:Token xmi:id="6951" sofa="13090" begin="178" end="179" parent="6782" lemma="8240" pos="8854" morph="10049" order="0"/>
+    <type5:Token xmi:id="6964" sofa="13090" begin="180" end="183" parent="6990" lemma="8245" pos="8860" morph="10072" order="0"/>
+    <type5:Token xmi:id="6977" sofa="13090" begin="184" end="190" parent="6990" lemma="8250" pos="8866" morph="10095" order="0"/>
+    <type5:Token xmi:id="6990" sofa="13090" begin="191" end="197" parent="7094" lemma="8255" pos="8872" morph="10118" order="0"/>
+    <type5:Token xmi:id="7003" sofa="13090" begin="197" end="198" parent="6990" lemma="8260" pos="8878" morph="10141" order="0"/>
+    <type5:Token xmi:id="7016" sofa="13090" begin="199" end="202" parent="7055" lemma="8265" pos="8884" morph="10164" order="0"/>
+    <type5:Token xmi:id="7029" sofa="13090" begin="203" end="206" parent="7068" lemma="8270" pos="8890" morph="10187" order="0"/>
+    <type5:Token xmi:id="7042" sofa="13090" begin="207" end="209" parent="7055" lemma="8275" pos="8896" morph="10210" order="0"/>
+    <type5:Token xmi:id="7055" sofa="13090" begin="210" end="222" parent="7068" lemma="8280" pos="8902" morph="10233" order="0"/>
+    <type5:Token xmi:id="7068" sofa="13090" begin="223" end="228" parent="6990" lemma="8285" pos="8908" morph="10256" order="0"/>
+    <type5:Token xmi:id="7081" sofa="13090" begin="228" end="229" parent="7094" lemma="8290" pos="8914" morph="10279" order="0"/>
+    <type5:Token xmi:id="7094" sofa="13090" begin="230" end="235" parent="7094" lemma="8295" pos="8920" morph="10302" order="0"/>
+    <type5:Token xmi:id="7107" sofa="13090" begin="236" end="239" parent="7094" lemma="8300" pos="8926" morph="10325" order="0"/>
+    <type5:Token xmi:id="7120" sofa="13090" begin="239" end="240" parent="7107" lemma="8305" pos="8932" morph="10348" order="0"/>
+    <type5:Token xmi:id="7133" sofa="13090" begin="241" end="244" parent="7172" lemma="8310" pos="8938" morph="10371" order="0"/>
+    <type5:Token xmi:id="7146" sofa="13090" begin="245" end="248" parent="7172" lemma="8315" pos="8944" morph="10394" order="0"/>
+    <type5:Token xmi:id="7159" sofa="13090" begin="249" end="259" parent="7172" lemma="8320" pos="8950" morph="10417" order="0"/>
+    <type5:Token xmi:id="7172" sofa="13090" begin="260" end="266" parent="7107" lemma="8325" pos="8956" morph="10440" order="0"/>
+    <type5:Token xmi:id="7185" sofa="13090" begin="266" end="267" parent="7094" lemma="8330" pos="8962" morph="10463" order="0"/>
+    <type5:Token xmi:id="7198" sofa="13090" begin="268" end="271" parent="7224" lemma="8335" pos="8968" morph="10486" order="0"/>
+    <type5:Token xmi:id="7211" sofa="13090" begin="272" end="286" parent="7224" lemma="8340" pos="8974" morph="10509" order="0"/>
+    <type5:Token xmi:id="7224" sofa="13090" begin="287" end="291" parent="6990" lemma="8345" pos="8980" morph="10532" order="0"/>
+    <type5:Token xmi:id="7237" sofa="13090" begin="291" end="292" parent="7224" lemma="8350" pos="8986" morph="10555" order="0"/>
+    <type5:Token xmi:id="7250" sofa="13090" begin="293" end="302" parent="7276" lemma="8355" pos="8992" morph="10578" order="0"/>
+    <type5:Token xmi:id="7263" sofa="13090" begin="303" end="308" lemma="8360" pos="8998" morph="10601" order="0"/>
+    <type5:Token xmi:id="7276" sofa="13090" begin="329" end="342" parent="7224" lemma="8365" pos="9004" morph="10624" order="0"/>
+    <type5:Token xmi:id="7289" sofa="13090" begin="342" end="343" parent="7094" lemma="8370" pos="9010" morph="10647" order="0"/>
+    <type5:Token xmi:id="7302" sofa="13090" begin="345" end="353" parent="7315" lemma="8375" pos="9016" morph="10670" order="0"/>
+    <type5:Token xmi:id="7315" sofa="13090" begin="354" end="360" parent="7315" lemma="8380" pos="9022" morph="10693" order="0"/>
+    <type5:Token xmi:id="7328" sofa="13090" begin="361" end="364" parent="7315" lemma="8385" pos="9028" morph="10716" order="0"/>
+    <type5:Token xmi:id="7341" sofa="13090" begin="365" end="370" parent="7315" lemma="8390" pos="9034" morph="10739" order="0"/>
+    <type5:Token xmi:id="7354" sofa="13090" begin="371" end="374" parent="7367" lemma="8395" pos="9040" morph="10762" order="0"/>
+    <type5:Token xmi:id="7367" sofa="13090" begin="375" end="385" parent="7315" lemma="8400" pos="9046" morph="10785" order="0"/>
+    <type5:Token xmi:id="7380" sofa="13090" begin="385" end="386" parent="7315" lemma="8405" pos="9052" morph="10808" order="0"/>
+    <type5:Token xmi:id="7393" sofa="13090" begin="387" end="390" parent="7315" lemma="8410" pos="9058" morph="10831" order="0"/>
+    <type5:Token xmi:id="7406" sofa="13090" begin="391" end="394" parent="7419" lemma="8415" pos="9064" morph="10854" order="0"/>
+    <type5:Token xmi:id="7419" sofa="13090" begin="395" end="398" parent="7393" lemma="8420" pos="9070" morph="10877" order="0"/>
+    <type5:Token xmi:id="7432" sofa="13090" begin="399" end="402" parent="7419" lemma="8425" pos="9076" morph="10900" order="0"/>
+    <type5:Token xmi:id="7445" sofa="13090" begin="403" end="407" parent="7419" lemma="8430" pos="9082" morph="10923" order="0"/>
+    <type5:Token xmi:id="7458" sofa="13090" begin="407" end="408" parent="7315" lemma="8435" pos="9088" morph="10946" order="0"/>
+    <type5:Token xmi:id="7471" sofa="13090" begin="409" end="412" parent="7484" lemma="8440" pos="9094" morph="10969" order="0"/>
+    <type5:Token xmi:id="7484" sofa="13090" begin="413" end="418" parent="7484" lemma="8445" pos="9100" morph="10992" order="0"/>
+    <type5:Token xmi:id="7497" sofa="13090" begin="419" end="423" parent="7484" lemma="8450" pos="9106" morph="11015" order="0"/>
+    <type5:Token xmi:id="7510" sofa="13090" begin="423" end="424" parent="7484" lemma="8455" pos="9112" morph="11038" order="0"/>
+    <type5:Token xmi:id="7523" sofa="13090" begin="425" end="429" parent="7640" lemma="8460" pos="9118" morph="11061" order="0"/>
+    <type5:Token xmi:id="7536" sofa="13090" begin="430" end="432" parent="7640" lemma="8465" pos="9124" morph="11084" order="0"/>
+    <type5:Token xmi:id="7549" sofa="13090" begin="433" end="435" parent="7640" lemma="8470" pos="9130" morph="11107" order="0"/>
+    <type5:Token xmi:id="7562" sofa="13090" begin="436" end="439" parent="7588" lemma="8475" pos="9136" morph="11130" order="0"/>
+    <type5:Token xmi:id="7575" sofa="13090" begin="440" end="445" parent="7588" lemma="8480" pos="9142" morph="11153" order="0"/>
+    <type5:Token xmi:id="7588" sofa="13090" begin="446" end="455" parent="7549" lemma="8485" pos="9148" morph="11176" order="0"/>
+    <type5:Token xmi:id="7601" sofa="13090" begin="456" end="463" parent="7640" lemma="8490" pos="9154" morph="11199" order="0"/>
+    <type5:Token xmi:id="7614" sofa="13090" begin="464" end="467" parent="7627" lemma="8495" pos="9160" morph="11222" order="0"/>
+    <type5:Token xmi:id="7627" sofa="13090" begin="468" end="477" parent="7640" lemma="8500" pos="9166" morph="11245" order="0"/>
+    <type5:Token xmi:id="7640" sofa="13090" begin="478" end="482" parent="7484" lemma="8505" pos="9172" morph="11268" order="0"/>
+    <type5:Token xmi:id="7653" sofa="13090" begin="482" end="483" parent="7640" lemma="8510" pos="9178" morph="11291" order="0"/>
+    <type5:Token xmi:id="7666" sofa="13090" begin="484" end="493" parent="7718" lemma="8515" pos="9184" morph="11314" order="0"/>
+    <type5:Token xmi:id="7679" sofa="13090" begin="494" end="497" parent="7718" lemma="8520" pos="9190" morph="11337" order="0"/>
+    <type5:Token xmi:id="7692" sofa="13090" begin="498" end="501" parent="7705" lemma="8525" pos="9196" morph="11360" order="0"/>
+    <type5:Token xmi:id="7705" sofa="13090" begin="502" end="506" parent="7679" lemma="8530" pos="9202" morph="11383" order="0"/>
+    <type5:Token xmi:id="7718" sofa="13090" begin="507" end="518" parent="7744" lemma="8535" pos="9208" morph="11406" order="0"/>
+    <type5:Token xmi:id="7731" sofa="13090" begin="519" end="521" parent="7744" lemma="8540" pos="9214" morph="11429" order="0"/>
+    <type5:Token xmi:id="7744" sofa="13090" begin="522" end="528" parent="7627" lemma="8545" pos="9220" morph="11452" order="0"/>
+    <type5:Token xmi:id="7757" sofa="13090" begin="528" end="529" parent="7484" lemma="8550" pos="9226" morph="11475" order="0"/>
+    <type5:Token xmi:id="7770" sofa="13090" begin="530" end="533" parent="7809" lemma="8555" pos="9232" morph="11498" order="0"/>
+    <type5:Token xmi:id="7783" sofa="13090" begin="534" end="539" lemma="8560" pos="9238" morph="11521" order="0"/>
+    <type5:Token xmi:id="7796" sofa="13090" begin="560" end="584" parent="7770" lemma="8565" pos="9244" morph="11544" order="0"/>
+    <type5:Token xmi:id="7809" sofa="13090" begin="585" end="589" parent="7809" lemma="8570" pos="9250" morph="11567" order="0"/>
+    <type5:Token xmi:id="7822" sofa="13090" begin="590" end="593" parent="7809" lemma="8575" pos="9256" morph="11590" order="0"/>
+    <type5:Token xmi:id="7835" sofa="13090" begin="594" end="598" parent="7809" lemma="8580" pos="9262" morph="11613" order="0"/>
+    <type5:Token xmi:id="7848" sofa="13090" begin="599" end="609" parent="7809" lemma="8585" pos="9268" morph="11636" order="0"/>
+    <type5:Token xmi:id="7861" sofa="13090" begin="610" end="614" parent="7874" lemma="8590" pos="9274" morph="11659" order="0"/>
+    <type5:Token xmi:id="7874" sofa="13090" begin="615" end="618" parent="7809" lemma="8595" pos="9280" morph="11682" order="0"/>
+    <type5:Token xmi:id="7887" sofa="13090" begin="619" end="625" parent="7900" lemma="8600" pos="9286" morph="11705" order="0"/>
+    <type5:Token xmi:id="7900" sofa="13090" begin="626" end="631" parent="7874" lemma="8605" pos="9292" morph="11728" order="0"/>
+    <type5:Token xmi:id="7913" sofa="13090" begin="632" end="639" parent="7809" lemma="8610" pos="9298" morph="11751" order="0"/>
+    <type5:Token xmi:id="7926" sofa="13090" begin="640" end="642" parent="7939" lemma="8615" pos="9304" morph="11774" order="0"/>
+    <type5:Token xmi:id="7939" sofa="13090" begin="643" end="647" parent="7809" lemma="8620" pos="9310" morph="11797" order="0"/>
+    <type5:Token xmi:id="7952" sofa="13090" begin="647" end="648" parent="7939" lemma="8625" pos="9316" morph="11820" order="0"/>
+    <type5:Token xmi:id="7965" sofa="13090" begin="649" end="653" parent="8030" lemma="8630" pos="9322" morph="11843" order="0"/>
+    <type5:Token xmi:id="7978" sofa="13090" begin="654" end="657" parent="8030" lemma="8635" pos="9328" morph="11866" order="0"/>
+    <type5:Token xmi:id="7991" sofa="13090" begin="658" end="669" parent="8030" lemma="8640" pos="9334" morph="11889" order="0"/>
+    <type5:Token xmi:id="8004" sofa="13090" begin="670" end="678" parent="8017" lemma="8645" pos="9340" morph="11912" order="0"/>
+    <type5:Token xmi:id="8017" sofa="13090" begin="679" end="688" parent="8030" lemma="8650" pos="9346" morph="11935" order="0"/>
+    <type5:Token xmi:id="8030" sofa="13090" begin="689" end="694" parent="7926" lemma="8655" pos="9352" morph="11958" order="0"/>
+    <type5:Token xmi:id="8043" sofa="13090" begin="694" end="695" parent="7809" lemma="8660" pos="9358" morph="11981" order="0"/>
+    <type5:Token xmi:id="8056" sofa="13090" begin="696" end="702" parent="8069" lemma="8665" pos="9364" morph="12004" order="0"/>
+    <type5:Token xmi:id="8069" sofa="13090" begin="703" end="707" parent="8069" lemma="8670" pos="9370" morph="12027" order="0"/>
+    <type5:Token xmi:id="8082" sofa="13090" begin="707" end="708" parent="8069" lemma="8675" pos="9376" morph="12050" order="0"/>
+    <type5:Lemma xmi:id="8095" sofa="13090" begin="0" end="3" value="ich"/>
+    <type5:Lemma xmi:id="8100" sofa="13090" begin="4" end="10" value="kennen"/>
+    <type5:Lemma xmi:id="8105" sofa="13090" begin="11" end="16" value="dies"/>
+    <type5:Lemma xmi:id="8110" sofa="13090" begin="17" end="26" value="Programm"/>
+    <type5:Lemma xmi:id="8115" sofa="13090" begin="26" end="27" value=","/>
+    <type5:Lemma xmi:id="8120" sofa="13090" begin="28" end="32" value="aber"/>
+    <type5:Lemma xmi:id="8125" sofa="13090" begin="32" end="33" value=","/>
+    <type5:Lemma xmi:id="8130" sofa="13090" begin="34" end="37" value="ich"/>
+    <type5:Lemma xmi:id="8135" sofa="13090" begin="38" end="44" value="glauben"/>
+    <type5:Lemma xmi:id="8140" sofa="13090" begin="44" end="45" value=","/>
+    <type5:Lemma xmi:id="8145" sofa="13090" begin="46" end="49" value="der"/>
+    <type5:Lemma xmi:id="8150" sofa="13090" begin="50" end="55" value="groß"/>
+    <type5:Lemma xmi:id="8155" sofa="13090" begin="56" end="69" value="Allgemeinheit"/>
+    <type5:Lemma xmi:id="8160" sofa="13090" begin="70" end="75" value="nicht"/>
+    <type5:Lemma xmi:id="8165" sofa="13090" begin="75" end="76" value="."/>
+    <type5:Lemma xmi:id="8170" sofa="13090" begin="77" end="80" value="der"/>
+    <type5:Lemma xmi:id="8175" sofa="13090" begin="81" end="86" value="liegen"/>
+    <type5:Lemma xmi:id="8180" sofa="13090" begin="87" end="97" value="vielleicht"/>
+    <type5:Lemma xmi:id="8185" sofa="13090" begin="98" end="102" value="auch"/>
+    <type5:Lemma xmi:id="8190" sofa="13090" begin="103" end="108" value="daran"/>
+    <type5:Lemma xmi:id="8195" sofa="13090" begin="108" end="109" value=","/>
+    <type5:Lemma xmi:id="8200" sofa="13090" begin="110" end="114" value="dass"/>
+    <type5:Lemma xmi:id="8205" sofa="13090" begin="115" end="118" value="ich"/>
+    <type5:Lemma xmi:id="8210" sofa="13090" begin="119" end="127" value="offenbaren"/>
+    <type5:Lemma xmi:id="8215" sofa="13090" begin="128" end="133" value="nicht"/>
+    <type5:Lemma xmi:id="8220" sofa="13090" begin="134" end="137" value="zum"/>
+    <type5:Lemma xmi:id="8225" sofa="13090" begin="138" end="144" value="Erfolg"/>
+    <type5:Lemma xmi:id="8230" sofa="13090" begin="165" end="172" value="führen"/>
+    <type5:Lemma xmi:id="8235" sofa="13090" begin="173" end="178" value="haben"/>
+    <type5:Lemma xmi:id="8240" sofa="13090" begin="178" end="179" value="."/>
+    <type5:Lemma xmi:id="8245" sofa="13090" begin="180" end="183" value="der"/>
+    <type5:Lemma xmi:id="8250" sofa="13090" begin="184" end="190" value="ganz"/>
+    <type5:Lemma xmi:id="8255" sofa="13090" begin="191" end="197" value="Geld"/>
+    <type5:Lemma xmi:id="8260" sofa="13090" begin="197" end="198" value=","/>
+    <type5:Lemma xmi:id="8265" sofa="13090" begin="199" end="202" value="der"/>
+    <type5:Lemma xmi:id="8270" sofa="13090" begin="203" end="206" value="ich"/>
+    <type5:Lemma xmi:id="8275" sofa="13090" begin="207" end="209" value="da"/>
+    <type5:Lemma xmi:id="8280" sofa="13090" begin="210" end="222" value="reingesteckt"/>
+    <type5:Lemma xmi:id="8285" sofa="13090" begin="223" end="228" value="haben"/>
+    <type5:Lemma xmi:id="8290" sofa="13090" begin="228" end="229" value=","/>
+    <type5:Lemma xmi:id="8295" sofa="13090" begin="230" end="235" value="haben"/>
+    <type5:Lemma xmi:id="8300" sofa="13090" begin="236" end="239" value="der"/>
+    <type5:Lemma xmi:id="8305" sofa="13090" begin="239" end="240" value=","/>
+    <type5:Lemma xmi:id="8310" sofa="13090" begin="241" end="244" value="was"/>
+    <type5:Lemma xmi:id="8315" sofa="13090" begin="245" end="248" value="ich"/>
+    <type5:Lemma xmi:id="8320" sofa="13090" begin="249" end="259" value="eigentlich"/>
+    <type5:Lemma xmi:id="8325" sofa="13090" begin="260" end="266" value="wollen"/>
+    <type5:Lemma xmi:id="8330" sofa="13090" begin="266" end="267" value=","/>
+    <type5:Lemma xmi:id="8335" sofa="13090" begin="268" end="271" value="einen"/>
+    <type5:Lemma xmi:id="8340" sofa="13090" begin="272" end="286" value="barrierefreies"/>
+    <type5:Lemma xmi:id="8345" sofa="13090" begin="287" end="291" value="Land"/>
+    <type5:Lemma xmi:id="8350" sofa="13090" begin="291" end="292" value=","/>
+    <type5:Lemma xmi:id="8355" sofa="13090" begin="293" end="302" value="großteils"/>
+    <type5:Lemma xmi:id="8360" sofa="13090" begin="303" end="308" value="nicht"/>
+    <type5:Lemma xmi:id="8365" sofa="13090" begin="329" end="342" value="voranbringen"/>
+    <type5:Lemma xmi:id="8370" sofa="13090" begin="342" end="343" value="."/>
+    <type5:Lemma xmi:id="8375" sofa="13090" begin="345" end="353" value="Deswegen"/>
+    <type5:Lemma xmi:id="8380" sofa="13090" begin="354" end="360" value="müssen"/>
+    <type5:Lemma xmi:id="8385" sofa="13090" begin="361" end="364" value="ich"/>
+    <type5:Lemma xmi:id="8390" sofa="13090" begin="365" end="370" value="jetzt"/>
+    <type5:Lemma xmi:id="8395" sofa="13090" begin="371" end="374" value="neu"/>
+    <type5:Lemma xmi:id="8400" sofa="13090" begin="375" end="385" value="nachdenken"/>
+    <type5:Lemma xmi:id="8405" sofa="13090" begin="385" end="386" value=","/>
+    <type5:Lemma xmi:id="8410" sofa="13090" begin="387" end="390" value="und"/>
+    <type5:Lemma xmi:id="8415" sofa="13090" begin="391" end="394" value="der"/>
+    <type5:Lemma xmi:id="8420" sofa="13090" begin="395" end="398" value="tun"/>
+    <type5:Lemma xmi:id="8425" sofa="13090" begin="399" end="402" value="ich"/>
+    <type5:Lemma xmi:id="8430" sofa="13090" begin="403" end="407" value="auch"/>
+    <type5:Lemma xmi:id="8435" sofa="13090" begin="407" end="408" value="."/>
+    <type5:Lemma xmi:id="8440" sofa="13090" begin="409" end="412" value="Ich"/>
+    <type5:Lemma xmi:id="8445" sofa="13090" begin="413" end="418" value="freuen"/>
+    <type5:Lemma xmi:id="8450" sofa="13090" begin="419" end="423" value="sich"/>
+    <type5:Lemma xmi:id="8455" sofa="13090" begin="423" end="424" value=","/>
+    <type5:Lemma xmi:id="8460" sofa="13090" begin="425" end="429" value="dass"/>
+    <type5:Lemma xmi:id="8465" sofa="13090" begin="430" end="432" value="ich"/>
+    <type5:Lemma xmi:id="8470" sofa="13090" begin="433" end="435" value="in"/>
+    <type5:Lemma xmi:id="8475" sofa="13090" begin="436" end="439" value="der"/>
+    <type5:Lemma xmi:id="8480" sofa="13090" begin="440" end="445" value="neu"/>
+    <type5:Lemma xmi:id="8485" sofa="13090" begin="446" end="455" value="Regierung"/>
+    <type5:Lemma xmi:id="8490" sofa="13090" begin="456" end="463" value="endlich"/>
+    <type5:Lemma xmi:id="8495" sofa="13090" begin="464" end="467" value="der"/>
+    <type5:Lemma xmi:id="8500" sofa="13090" begin="468" end="477" value="Interesse"/>
+    <type5:Lemma xmi:id="8505" sofa="13090" begin="478" end="482" value="geben"/>
+    <type5:Lemma xmi:id="8510" sofa="13090" begin="482" end="483" value=","/>
+    <type5:Lemma xmi:id="8515" sofa="13090" begin="484" end="493" value="gemeinsam"/>
+    <type5:Lemma xmi:id="8520" sofa="13090" begin="494" end="497" value="mit"/>
+    <type5:Lemma xmi:id="8525" sofa="13090" begin="498" end="501" value="der"/>
+    <type5:Lemma xmi:id="8530" sofa="13090" begin="502" end="506" value="Bahn"/>
+    <type5:Lemma xmi:id="8535" sofa="13090" begin="507" end="518" value="vorankommen"/>
+    <type5:Lemma xmi:id="8540" sofa="13090" begin="519" end="521" value="zu"/>
+    <type5:Lemma xmi:id="8545" sofa="13090" begin="522" end="528" value="wollen"/>
+    <type5:Lemma xmi:id="8550" sofa="13090" begin="528" end="529" value="."/>
+    <type5:Lemma xmi:id="8555" sofa="13090" begin="530" end="533" value="Mit"/>
+    <type5:Lemma xmi:id="8560" sofa="13090" begin="534" end="539" value="neu"/>
+    <type5:Lemma xmi:id="8565" sofa="13090" begin="560" end="584" value="Finanzierungsvorschlägen"/>
+    <type5:Lemma xmi:id="8570" sofa="13090" begin="585" end="589" value="sein"/>
+    <type5:Lemma xmi:id="8575" sofa="13090" begin="590" end="593" value="ich"/>
+    <type5:Lemma xmi:id="8580" sofa="13090" begin="594" end="598" value="dann"/>
+    <type5:Lemma xmi:id="8585" sofa="13090" begin="599" end="609" value="vielleicht"/>
+    <type5:Lemma xmi:id="8590" sofa="13090" begin="610" end="614" value="auch"/>
+    <type5:Lemma xmi:id="8595" sofa="13090" begin="615" end="618" value="bei"/>
+    <type5:Lemma xmi:id="8600" sofa="13090" begin="619" end="625" value="dies"/>
+    <type5:Lemma xmi:id="8605" sofa="13090" begin="626" end="631" value="Thema"/>
+    <type5:Lemma xmi:id="8610" sofa="13090" begin="632" end="639" value="endlich"/>
+    <type5:Lemma xmi:id="8615" sofa="13090" begin="640" end="642" value="so"/>
+    <type5:Lemma xmi:id="8620" sofa="13090" begin="643" end="647" value="weit"/>
+    <type5:Lemma xmi:id="8625" sofa="13090" begin="647" end="648" value=","/>
+    <type5:Lemma xmi:id="8630" sofa="13090" begin="649" end="653" value="dass"/>
+    <type5:Lemma xmi:id="8635" sofa="13090" begin="654" end="657" value="ich"/>
+    <type5:Lemma xmi:id="8640" sofa="13090" begin="658" end="669" value="tatsächlich"/>
+    <type5:Lemma xmi:id="8645" sofa="13090" begin="670" end="678" value="messbare"/>
+    <type5:Lemma xmi:id="8650" sofa="13090" begin="679" end="688" value="Resultat"/>
+    <type5:Lemma xmi:id="8655" sofa="13090" begin="689" end="694" value="sehen"/>
+    <type5:Lemma xmi:id="8660" sofa="13090" begin="694" end="695" value="."/>
+    <type5:Lemma xmi:id="8665" sofa="13090" begin="696" end="702" value="viel"/>
+    <type5:Lemma xmi:id="8670" sofa="13090" begin="703" end="707" value="Dank"/>
+    <type5:Lemma xmi:id="8675" sofa="13090" begin="707" end="708" value="."/>
+    <pos:POS xmi:id="8680" sofa="13090" begin="0" end="3" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="8686" sofa="13090" begin="4" end="10" PosValue="VVFIN" coarseValue="VERB"/>
+    <pos:POS xmi:id="8692" sofa="13090" begin="11" end="16" PosValue="PDAT" coarseValue="DET"/>
+    <pos:POS xmi:id="8698" sofa="13090" begin="17" end="26" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="8704" sofa="13090" begin="26" end="27" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8710" sofa="13090" begin="28" end="32" PosValue="KON" coarseValue="CCONJ"/>
+    <pos:POS xmi:id="8716" sofa="13090" begin="32" end="33" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8722" sofa="13090" begin="34" end="37" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="8728" sofa="13090" begin="38" end="44" PosValue="VVFIN" coarseValue="VERB"/>
+    <pos:POS xmi:id="8734" sofa="13090" begin="44" end="45" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8740" sofa="13090" begin="46" end="49" PosValue="ART" coarseValue="DET"/>
+    <pos:POS xmi:id="8746" sofa="13090" begin="50" end="55" PosValue="ADJA" coarseValue="ADJ"/>
+    <pos:POS xmi:id="8752" sofa="13090" begin="56" end="69" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="8758" sofa="13090" begin="70" end="75" PosValue="PTKNEG" coarseValue="PART"/>
+    <pos:POS xmi:id="8764" sofa="13090" begin="75" end="76" PosValue="$." coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8770" sofa="13090" begin="77" end="80" PosValue="PDS" coarseValue="PRON"/>
+    <pos:POS xmi:id="8776" sofa="13090" begin="81" end="86" PosValue="VVFIN" coarseValue="VERB"/>
+    <pos:POS xmi:id="8782" sofa="13090" begin="87" end="97" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="8788" sofa="13090" begin="98" end="102" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="8794" sofa="13090" begin="103" end="108" PosValue="PROAV" coarseValue="ADV"/>
+    <pos:POS xmi:id="8800" sofa="13090" begin="108" end="109" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8806" sofa="13090" begin="110" end="114" PosValue="KOUS" coarseValue="SCONJ"/>
+    <pos:POS xmi:id="8812" sofa="13090" begin="115" end="118" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="8818" sofa="13090" begin="119" end="127" PosValue="ADJD" coarseValue="ADV"/>
+    <pos:POS xmi:id="8824" sofa="13090" begin="128" end="133" PosValue="PTKNEG" coarseValue="PART"/>
+    <pos:POS xmi:id="8830" sofa="13090" begin="134" end="137" PosValue="APPRART" coarseValue="ADP"/>
+    <pos:POS xmi:id="8836" sofa="13090" begin="138" end="144" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="8842" sofa="13090" begin="165" end="172" PosValue="VVPP" coarseValue="VERB"/>
+    <pos:POS xmi:id="8848" sofa="13090" begin="173" end="178" PosValue="VAINF" coarseValue="AUX"/>
+    <pos:POS xmi:id="8854" sofa="13090" begin="178" end="179" PosValue="$." coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8860" sofa="13090" begin="180" end="183" PosValue="ART" coarseValue="DET"/>
+    <pos:POS xmi:id="8866" sofa="13090" begin="184" end="190" PosValue="ADJA" coarseValue="ADJ"/>
+    <pos:POS xmi:id="8872" sofa="13090" begin="191" end="197" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="8878" sofa="13090" begin="197" end="198" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8884" sofa="13090" begin="199" end="202" PosValue="PRELS" coarseValue="PRON"/>
+    <pos:POS xmi:id="8890" sofa="13090" begin="203" end="206" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="8896" sofa="13090" begin="207" end="209" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="8902" sofa="13090" begin="210" end="222" PosValue="VVPP" coarseValue="VERB"/>
+    <pos:POS xmi:id="8908" sofa="13090" begin="223" end="228" PosValue="VAFIN" coarseValue="AUX"/>
+    <pos:POS xmi:id="8914" sofa="13090" begin="228" end="229" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8920" sofa="13090" begin="230" end="235" PosValue="VAFIN" coarseValue="AUX"/>
+    <pos:POS xmi:id="8926" sofa="13090" begin="236" end="239" PosValue="PDS" coarseValue="PRON"/>
+    <pos:POS xmi:id="8932" sofa="13090" begin="239" end="240" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8938" sofa="13090" begin="241" end="244" PosValue="PRELS" coarseValue="PRON"/>
+    <pos:POS xmi:id="8944" sofa="13090" begin="245" end="248" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="8950" sofa="13090" begin="249" end="259" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="8956" sofa="13090" begin="260" end="266" PosValue="VMFIN" coarseValue="VERB"/>
+    <pos:POS xmi:id="8962" sofa="13090" begin="266" end="267" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8968" sofa="13090" begin="268" end="271" PosValue="ART" coarseValue="DET"/>
+    <pos:POS xmi:id="8974" sofa="13090" begin="272" end="286" PosValue="ADJA" coarseValue="ADJ"/>
+    <pos:POS xmi:id="8980" sofa="13090" begin="287" end="291" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="8986" sofa="13090" begin="291" end="292" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="8992" sofa="13090" begin="293" end="302" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="8998" sofa="13090" begin="303" end="308" PosValue="PTKNEG" coarseValue="PART"/>
+    <pos:POS xmi:id="9004" sofa="13090" begin="329" end="342" PosValue="VVPP" coarseValue="VERB"/>
+    <pos:POS xmi:id="9010" sofa="13090" begin="342" end="343" PosValue="$." coarseValue="PUNCT"/>
+    <pos:POS xmi:id="9016" sofa="13090" begin="345" end="353" PosValue="PROAV" coarseValue="ADV"/>
+    <pos:POS xmi:id="9022" sofa="13090" begin="354" end="360" PosValue="VMFIN" coarseValue="AUX"/>
+    <pos:POS xmi:id="9028" sofa="13090" begin="361" end="364" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="9034" sofa="13090" begin="365" end="370" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="9040" sofa="13090" begin="371" end="374" PosValue="ADJD" coarseValue="ADV"/>
+    <pos:POS xmi:id="9046" sofa="13090" begin="375" end="385" PosValue="VVINF" coarseValue="VERB"/>
+    <pos:POS xmi:id="9052" sofa="13090" begin="385" end="386" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="9058" sofa="13090" begin="387" end="390" PosValue="KON" coarseValue="CCONJ"/>
+    <pos:POS xmi:id="9064" sofa="13090" begin="391" end="394" PosValue="PDS" coarseValue="PRON"/>
+    <pos:POS xmi:id="9070" sofa="13090" begin="395" end="398" PosValue="VVFIN" coarseValue="VERB"/>
+    <pos:POS xmi:id="9076" sofa="13090" begin="399" end="402" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="9082" sofa="13090" begin="403" end="407" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="9088" sofa="13090" begin="407" end="408" PosValue="$." coarseValue="PUNCT"/>
+    <pos:POS xmi:id="9094" sofa="13090" begin="409" end="412" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="9100" sofa="13090" begin="413" end="418" PosValue="VVFIN" coarseValue="VERB"/>
+    <pos:POS xmi:id="9106" sofa="13090" begin="419" end="423" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="9112" sofa="13090" begin="423" end="424" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="9118" sofa="13090" begin="425" end="429" PosValue="KOUS" coarseValue="SCONJ"/>
+    <pos:POS xmi:id="9124" sofa="13090" begin="430" end="432" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="9130" sofa="13090" begin="433" end="435" PosValue="APPR" coarseValue="ADP"/>
+    <pos:POS xmi:id="9136" sofa="13090" begin="436" end="439" PosValue="ART" coarseValue="DET"/>
+    <pos:POS xmi:id="9142" sofa="13090" begin="440" end="445" PosValue="ADJA" coarseValue="ADJ"/>
+    <pos:POS xmi:id="9148" sofa="13090" begin="446" end="455" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="9154" sofa="13090" begin="456" end="463" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="9160" sofa="13090" begin="464" end="467" PosValue="ART" coarseValue="DET"/>
+    <pos:POS xmi:id="9166" sofa="13090" begin="468" end="477" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="9172" sofa="13090" begin="478" end="482" PosValue="VVFIN" coarseValue="VERB"/>
+    <pos:POS xmi:id="9178" sofa="13090" begin="482" end="483" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="9184" sofa="13090" begin="484" end="493" PosValue="ADJD" coarseValue="ADV"/>
+    <pos:POS xmi:id="9190" sofa="13090" begin="494" end="497" PosValue="APPR" coarseValue="ADP"/>
+    <pos:POS xmi:id="9196" sofa="13090" begin="498" end="501" PosValue="ART" coarseValue="DET"/>
+    <pos:POS xmi:id="9202" sofa="13090" begin="502" end="506" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="9208" sofa="13090" begin="507" end="518" PosValue="VVINF" coarseValue="VERB"/>
+    <pos:POS xmi:id="9214" sofa="13090" begin="519" end="521" PosValue="PTKZU" coarseValue="PART"/>
+    <pos:POS xmi:id="9220" sofa="13090" begin="522" end="528" PosValue="VMINF" coarseValue="AUX"/>
+    <pos:POS xmi:id="9226" sofa="13090" begin="528" end="529" PosValue="$." coarseValue="PUNCT"/>
+    <pos:POS xmi:id="9232" sofa="13090" begin="530" end="533" PosValue="APPR" coarseValue="ADP"/>
+    <pos:POS xmi:id="9238" sofa="13090" begin="534" end="539" PosValue="ADJA" coarseValue="ADJ"/>
+    <pos:POS xmi:id="9244" sofa="13090" begin="560" end="584" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="9250" sofa="13090" begin="585" end="589" PosValue="VAFIN" coarseValue="AUX"/>
+    <pos:POS xmi:id="9256" sofa="13090" begin="590" end="593" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="9262" sofa="13090" begin="594" end="598" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="9268" sofa="13090" begin="599" end="609" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="9274" sofa="13090" begin="610" end="614" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="9280" sofa="13090" begin="615" end="618" PosValue="APPR" coarseValue="ADP"/>
+    <pos:POS xmi:id="9286" sofa="13090" begin="619" end="625" PosValue="PDAT" coarseValue="DET"/>
+    <pos:POS xmi:id="9292" sofa="13090" begin="626" end="631" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="9298" sofa="13090" begin="632" end="639" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="9304" sofa="13090" begin="640" end="642" PosValue="ADV" coarseValue="ADV"/>
+    <pos:POS xmi:id="9310" sofa="13090" begin="643" end="647" PosValue="ADJD" coarseValue="ADV"/>
+    <pos:POS xmi:id="9316" sofa="13090" begin="647" end="648" PosValue="$," coarseValue="PUNCT"/>
+    <pos:POS xmi:id="9322" sofa="13090" begin="649" end="653" PosValue="KOUS" coarseValue="SCONJ"/>
+    <pos:POS xmi:id="9328" sofa="13090" begin="654" end="657" PosValue="PPER" coarseValue="PRON"/>
+    <pos:POS xmi:id="9334" sofa="13090" begin="658" end="669" PosValue="ADJD" coarseValue="ADV"/>
+    <pos:POS xmi:id="9340" sofa="13090" begin="670" end="678" PosValue="ADJA" coarseValue="ADJ"/>
+    <pos:POS xmi:id="9346" sofa="13090" begin="679" end="688" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="9352" sofa="13090" begin="689" end="694" PosValue="VVFIN" coarseValue="VERB"/>
+    <pos:POS xmi:id="9358" sofa="13090" begin="694" end="695" PosValue="$." coarseValue="PUNCT"/>
+    <pos:POS xmi:id="9364" sofa="13090" begin="696" end="702" PosValue="PIAT" coarseValue="DET"/>
+    <pos:POS xmi:id="9370" sofa="13090" begin="703" end="707" PosValue="NN" coarseValue="NOUN"/>
+    <pos:POS xmi:id="9376" sofa="13090" begin="707" end="708" PosValue="$." coarseValue="PUNCT"/>
+    <morph:MorphologicalFeatures xmi:id="9382" sofa="13090" begin="0" end="3" number="Plur" case="Nom" value="Case=Nom|Number=Plur|Person=1|PronType=Prs" person="1" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="9405" sofa="13090" begin="4" end="10" number="Plur" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" person="1"/>
+    <morph:MorphologicalFeatures xmi:id="9428" sofa="13090" begin="11" end="16" gender="Neut" number="Plur" case="Acc" value="Case=Acc|Gender=Neut|Number=Plur|PronType=Dem" pronType="Dem"/>
+    <morph:MorphologicalFeatures xmi:id="9451" sofa="13090" begin="17" end="26" gender="Neut" number="Plur" case="Acc" value="Case=Acc|Gender=Neut|Number=Plur"/>
+    <morph:MorphologicalFeatures xmi:id="9474" sofa="13090" begin="26" end="27" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9497" sofa="13090" begin="28" end="32" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9520" sofa="13090" begin="32" end="33" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9543" sofa="13090" begin="34" end="37" number="Sing" case="Nom" value="Case=Nom|Number=Sing|Person=1|PronType=Prs" person="1" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="9566" sofa="13090" begin="38" end="44" number="Sing" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" person="1"/>
+    <morph:MorphologicalFeatures xmi:id="9589" sofa="13090" begin="44" end="45" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9612" sofa="13090" begin="46" end="49" gender="Fem" number="Sing" case="Acc" definiteness="Def" value="Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pronType="Art"/>
+    <morph:MorphologicalFeatures xmi:id="9635" sofa="13090" begin="50" end="55" gender="Fem" number="Sing" case="Acc" degree="Pos" value="Case=Acc|Degree=Pos|Gender=Fem|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="9658" sofa="13090" begin="56" end="69" gender="Fem" number="Sing" case="Acc" value="Case=Acc|Gender=Fem|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="9681" sofa="13090" begin="70" end="75" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9704" sofa="13090" begin="75" end="76" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9727" sofa="13090" begin="77" end="80" gender="Neut" number="Sing" case="Nom" value="Case=Nom|Gender=Neut|Number=Sing|PronType=Dem" pronType="Dem"/>
+    <morph:MorphologicalFeatures xmi:id="9750" sofa="13090" begin="81" end="86" number="Sing" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" person="3"/>
+    <morph:MorphologicalFeatures xmi:id="9773" sofa="13090" begin="87" end="97" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9796" sofa="13090" begin="98" end="102" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9819" sofa="13090" begin="103" end="108" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9842" sofa="13090" begin="108" end="109" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9865" sofa="13090" begin="110" end="114" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9888" sofa="13090" begin="115" end="118" gender="Fem" number="Sing" case="Nom" value="Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs" person="3" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="9911" sofa="13090" begin="119" end="127" degree="Pos" value="Degree=Pos"/>
+    <morph:MorphologicalFeatures xmi:id="9934" sofa="13090" begin="128" end="133" value=""/>
+    <morph:MorphologicalFeatures xmi:id="9957" sofa="13090" begin="134" end="137" gender="Masc" number="Sing" case="Dat" value="Case=Dat|Gender=Masc|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="9980" sofa="13090" begin="138" end="144" gender="Masc" number="Sing" case="Dat" value="Case=Dat|Gender=Masc|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="10003" sofa="13090" begin="165" end="172" verbForm="Part" value="VerbForm=Part"/>
+    <morph:MorphologicalFeatures xmi:id="10026" sofa="13090" begin="173" end="178" verbForm="Inf" value="VerbForm=Inf"/>
+    <morph:MorphologicalFeatures xmi:id="10049" sofa="13090" begin="178" end="179" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10072" sofa="13090" begin="180" end="183" gender="Neut" number="Plur" case="Nom" definiteness="Def" value="Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art" pronType="Art"/>
+    <morph:MorphologicalFeatures xmi:id="10095" sofa="13090" begin="184" end="190" gender="Neut" number="Plur" case="Nom" degree="Pos" value="Case=Nom|Degree=Pos|Gender=Neut|Number=Plur"/>
+    <morph:MorphologicalFeatures xmi:id="10118" sofa="13090" begin="191" end="197" gender="Neut" number="Plur" case="Nom" value="Case=Nom|Gender=Neut|Number=Plur"/>
+    <morph:MorphologicalFeatures xmi:id="10141" sofa="13090" begin="197" end="198" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10164" sofa="13090" begin="199" end="202" gender="Neut" number="Plur" case="Acc" value="Case=Acc|Gender=Neut|Number=Plur|PronType=Rel" pronType="Rel"/>
+    <morph:MorphologicalFeatures xmi:id="10187" sofa="13090" begin="203" end="206" number="Plur" case="Nom" value="Case=Nom|Number=Plur|Person=1|PronType=Prs" person="1" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="10210" sofa="13090" begin="207" end="209" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10233" sofa="13090" begin="210" end="222" verbForm="Part" value="VerbForm=Part"/>
+    <morph:MorphologicalFeatures xmi:id="10256" sofa="13090" begin="223" end="228" number="Plur" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" person="3"/>
+    <morph:MorphologicalFeatures xmi:id="10279" sofa="13090" begin="228" end="229" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10302" sofa="13090" begin="230" end="235" number="Plur" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" person="3"/>
+    <morph:MorphologicalFeatures xmi:id="10325" sofa="13090" begin="236" end="239" gender="Neut" number="Sing" case="Acc" value="Case=Acc|Gender=Neut|Number=Sing|PronType=Dem" pronType="Dem"/>
+    <morph:MorphologicalFeatures xmi:id="10348" sofa="13090" begin="239" end="240" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10371" sofa="13090" begin="241" end="244" gender="Neut" number="Sing" case="Acc" value="Case=Acc|Gender=Neut|Number=Sing|PronType=Rel" pronType="Rel"/>
+    <morph:MorphologicalFeatures xmi:id="10394" sofa="13090" begin="245" end="248" number="Plur" case="Nom" value="Case=Nom|Number=Plur|Person=1|PronType=Prs" person="1" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="10417" sofa="13090" begin="249" end="259" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10440" sofa="13090" begin="260" end="266" number="Plur" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" person="1"/>
+    <morph:MorphologicalFeatures xmi:id="10463" sofa="13090" begin="266" end="267" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10486" sofa="13090" begin="268" end="271" gender="Neut" number="Sing" case="Acc" definiteness="Ind" value="Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art" pronType="Art"/>
+    <morph:MorphologicalFeatures xmi:id="10509" sofa="13090" begin="272" end="286" gender="Neut" number="Sing" case="Acc" degree="Pos" value="Case=Acc|Degree=Pos|Gender=Neut|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="10532" sofa="13090" begin="287" end="291" gender="Neut" number="Sing" case="Nom" value="Case=Nom|Gender=Neut|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="10555" sofa="13090" begin="291" end="292" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10578" sofa="13090" begin="293" end="302" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10601" sofa="13090" begin="303" end="308" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10624" sofa="13090" begin="329" end="342" verbForm="Part" value="VerbForm=Part"/>
+    <morph:MorphologicalFeatures xmi:id="10647" sofa="13090" begin="342" end="343" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10670" sofa="13090" begin="345" end="353" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10693" sofa="13090" begin="354" end="360" number="Plur" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" person="1"/>
+    <morph:MorphologicalFeatures xmi:id="10716" sofa="13090" begin="361" end="364" number="Plur" case="Nom" value="Case=Nom|Number=Plur|Person=1|PronType=Prs" person="1" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="10739" sofa="13090" begin="365" end="370" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10762" sofa="13090" begin="371" end="374" degree="Pos" value="Degree=Pos"/>
+    <morph:MorphologicalFeatures xmi:id="10785" sofa="13090" begin="375" end="385" verbForm="Inf" value="VerbForm=Inf"/>
+    <morph:MorphologicalFeatures xmi:id="10808" sofa="13090" begin="385" end="386" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10831" sofa="13090" begin="387" end="390" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10854" sofa="13090" begin="391" end="394" gender="Neut" number="Sing" case="Acc" value="Case=Acc|Gender=Neut|Number=Sing|PronType=Dem" pronType="Dem"/>
+    <morph:MorphologicalFeatures xmi:id="10877" sofa="13090" begin="395" end="398" number="Plur" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" person="1"/>
+    <morph:MorphologicalFeatures xmi:id="10900" sofa="13090" begin="399" end="402" number="Plur" case="Nom" value="Case=Nom|Number=Plur|Person=1|PronType=Prs" person="1" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="10923" sofa="13090" begin="403" end="407" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10946" sofa="13090" begin="407" end="408" value=""/>
+    <morph:MorphologicalFeatures xmi:id="10969" sofa="13090" begin="409" end="412" number="Sing" case="Nom" value="Case=Nom|Number=Sing|Person=1|PronType=Prs" person="1" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="10992" sofa="13090" begin="413" end="418" number="Sing" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" person="1"/>
+    <morph:MorphologicalFeatures xmi:id="11015" sofa="13090" begin="419" end="423" number="Sing" case="Acc" value="Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes" person="1" pronType="Prs" reflex="Yes"/>
+    <morph:MorphologicalFeatures xmi:id="11038" sofa="13090" begin="423" end="424" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11061" sofa="13090" begin="425" end="429" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11084" sofa="13090" begin="430" end="432" gender="Neut" number="Sing" case="Nom" value="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" person="3" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="11107" sofa="13090" begin="433" end="435" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11130" sofa="13090" begin="436" end="439" gender="Fem" number="Sing" case="Dat" definiteness="Def" value="Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pronType="Art"/>
+    <morph:MorphologicalFeatures xmi:id="11153" sofa="13090" begin="440" end="445" gender="Fem" number="Sing" case="Dat" degree="Pos" value="Case=Dat|Degree=Pos|Gender=Fem|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="11176" sofa="13090" begin="446" end="455" gender="Fem" number="Sing" case="Dat" value="Case=Dat|Gender=Fem|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="11199" sofa="13090" begin="456" end="463" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11222" sofa="13090" begin="464" end="467" gender="Neut" number="Sing" case="Acc" definiteness="Def" value="Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art" pronType="Art"/>
+    <morph:MorphologicalFeatures xmi:id="11245" sofa="13090" begin="468" end="477" gender="Neut" number="Sing" case="Acc" value="Case=Acc|Gender=Neut|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="11268" sofa="13090" begin="478" end="482" number="Sing" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" person="3"/>
+    <morph:MorphologicalFeatures xmi:id="11291" sofa="13090" begin="482" end="483" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11314" sofa="13090" begin="484" end="493" degree="Pos" value="Degree=Pos"/>
+    <morph:MorphologicalFeatures xmi:id="11337" sofa="13090" begin="494" end="497" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11360" sofa="13090" begin="498" end="501" gender="Fem" number="Sing" case="Dat" definiteness="Def" value="Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art" pronType="Art"/>
+    <morph:MorphologicalFeatures xmi:id="11383" sofa="13090" begin="502" end="506" gender="Fem" number="Sing" case="Dat" value="Case=Dat|Gender=Fem|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="11406" sofa="13090" begin="507" end="518" verbForm="Inf" value="VerbForm=Inf"/>
+    <morph:MorphologicalFeatures xmi:id="11429" sofa="13090" begin="519" end="521" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11452" sofa="13090" begin="522" end="528" verbForm="Inf" value="VerbForm=Inf"/>
+    <morph:MorphologicalFeatures xmi:id="11475" sofa="13090" begin="528" end="529" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11498" sofa="13090" begin="530" end="533" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11521" sofa="13090" begin="534" end="539" gender="Fem" number="Plur" case="Dat" degree="Pos" value="Case=Dat|Degree=Pos|Gender=Fem|Number=Plur"/>
+    <morph:MorphologicalFeatures xmi:id="11544" sofa="13090" begin="560" end="584" gender="Fem" number="Plur" case="Dat" value="Case=Dat|Gender=Fem|Number=Plur"/>
+    <morph:MorphologicalFeatures xmi:id="11567" sofa="13090" begin="585" end="589" number="Plur" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin" person="1"/>
+    <morph:MorphologicalFeatures xmi:id="11590" sofa="13090" begin="590" end="593" number="Plur" case="Nom" value="Case=Nom|Number=Plur|Person=1|PronType=Prs" person="1" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="11613" sofa="13090" begin="594" end="598" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11636" sofa="13090" begin="599" end="609" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11659" sofa="13090" begin="610" end="614" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11682" sofa="13090" begin="615" end="618" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11705" sofa="13090" begin="619" end="625" gender="Neut" number="Sing" case="Dat" value="Case=Dat|Gender=Neut|Number=Sing|PronType=Dem" pronType="Dem"/>
+    <morph:MorphologicalFeatures xmi:id="11728" sofa="13090" begin="626" end="631" gender="Neut" number="Sing" case="Dat" value="Case=Dat|Gender=Neut|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="11751" sofa="13090" begin="632" end="639" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11774" sofa="13090" begin="640" end="642" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11797" sofa="13090" begin="643" end="647" degree="Pos" value="Degree=Pos"/>
+    <morph:MorphologicalFeatures xmi:id="11820" sofa="13090" begin="647" end="648" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11843" sofa="13090" begin="649" end="653" value=""/>
+    <morph:MorphologicalFeatures xmi:id="11866" sofa="13090" begin="654" end="657" number="Plur" case="Nom" value="Case=Nom|Number=Plur|Person=1|PronType=Prs" person="1" pronType="Prs"/>
+    <morph:MorphologicalFeatures xmi:id="11889" sofa="13090" begin="658" end="669" degree="Pos" value="Degree=Pos"/>
+    <morph:MorphologicalFeatures xmi:id="11912" sofa="13090" begin="670" end="678" gender="Neut" number="Plur" case="Acc" degree="Pos" value="Case=Acc|Degree=Pos|Gender=Neut|Number=Plur"/>
+    <morph:MorphologicalFeatures xmi:id="11935" sofa="13090" begin="679" end="688" gender="Neut" number="Plur" case="Acc" value="Case=Acc|Gender=Neut|Number=Plur"/>
+    <morph:MorphologicalFeatures xmi:id="11958" sofa="13090" begin="689" end="694" number="Plur" verbForm="Fin" tense="Pres" mood="Ind" value="Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" person="3"/>
+    <morph:MorphologicalFeatures xmi:id="11981" sofa="13090" begin="694" end="695" value=""/>
+    <morph:MorphologicalFeatures xmi:id="12004" sofa="13090" begin="696" end="702" gender="Masc" number="Sing" case="Acc" value="Case=Acc|Gender=Masc|Number=Sing|PronType=Ind" pronType="Ind"/>
+    <morph:MorphologicalFeatures xmi:id="12027" sofa="13090" begin="703" end="707" gender="Masc" number="Sing" case="Acc" value="Case=Acc|Gender=Masc|Number=Sing"/>
+    <morph:MorphologicalFeatures xmi:id="12050" sofa="13090" begin="707" end="708" value=""/>
+    <dependency:Dependency xmi:id="12073" sofa="13090" begin="0" end="3" Governor="6587" Dependent="6574" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12081" sofa="13090" begin="11" end="16" Governor="6613" Dependent="6600" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12089" sofa="13090" begin="17" end="26" Governor="6587" Dependent="6613" DependencyType="OA" flavor="basic"/>
+    <dependency:Dependency xmi:id="12097" sofa="13090" begin="26" end="27" Governor="6587" Dependent="6626" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12105" sofa="13090" begin="28" end="32" Governor="6587" Dependent="6639" DependencyType="CD" flavor="basic"/>
+    <dependency:Dependency xmi:id="12113" sofa="13090" begin="32" end="33" Governor="6587" Dependent="6652" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12121" sofa="13090" begin="34" end="37" Governor="6678" Dependent="6665" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12129" sofa="13090" begin="38" end="44" Governor="6587" Dependent="6678" DependencyType="CJ" flavor="basic"/>
+    <dependency:Dependency xmi:id="12137" sofa="13090" begin="44" end="45" Governor="6678" Dependent="6691" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12145" sofa="13090" begin="46" end="49" Governor="6730" Dependent="6704" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12153" sofa="13090" begin="50" end="55" Governor="6730" Dependent="6717" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12161" sofa="13090" begin="56" end="69" Governor="6678" Dependent="6730" DependencyType="OA" flavor="basic"/>
+    <dependency:Dependency xmi:id="12169" sofa="13090" begin="70" end="75" Governor="6678" Dependent="6743" DependencyType="NG" flavor="basic"/>
+    <dependency:Dependency xmi:id="12177" sofa="13090" begin="75" end="76" Governor="6587" Dependent="6756" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12185" sofa="13090" begin="77" end="80" Governor="6782" Dependent="6769" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12193" sofa="13090" begin="87" end="97" Governor="6782" Dependent="6795" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12201" sofa="13090" begin="98" end="102" Governor="6821" Dependent="6808" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12209" sofa="13090" begin="103" end="108" Governor="6782" Dependent="6821" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12217" sofa="13090" begin="108" end="109" Governor="6821" Dependent="6834" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12225" sofa="13090" begin="110" end="114" Governor="6938" Dependent="6847" DependencyType="CP" flavor="basic"/>
+    <dependency:Dependency xmi:id="12233" sofa="13090" begin="115" end="118" Governor="6938" Dependent="6860" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12241" sofa="13090" begin="119" end="127" Governor="6925" Dependent="6873" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12249" sofa="13090" begin="128" end="133" Governor="6925" Dependent="6886" DependencyType="NG" flavor="basic"/>
+    <dependency:Dependency xmi:id="12257" sofa="13090" begin="134" end="137" Governor="6925" Dependent="6899" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12265" sofa="13090" begin="138" end="144" Governor="6899" Dependent="6912" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12273" sofa="13090" begin="165" end="172" Governor="6938" Dependent="6925" DependencyType="OC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12281" sofa="13090" begin="173" end="178" Governor="6821" Dependent="6938" DependencyType="RE" flavor="basic"/>
+    <dependency:Dependency xmi:id="12289" sofa="13090" begin="178" end="179" Governor="6782" Dependent="6951" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12297" sofa="13090" begin="180" end="183" Governor="6990" Dependent="6964" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12305" sofa="13090" begin="184" end="190" Governor="6990" Dependent="6977" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12313" sofa="13090" begin="191" end="197" Governor="7094" Dependent="6990" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12321" sofa="13090" begin="197" end="198" Governor="6990" Dependent="7003" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12329" sofa="13090" begin="199" end="202" Governor="7055" Dependent="7016" DependencyType="OA" flavor="basic"/>
+    <dependency:Dependency xmi:id="12337" sofa="13090" begin="203" end="206" Governor="7068" Dependent="7029" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12345" sofa="13090" begin="207" end="209" Governor="7055" Dependent="7042" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12353" sofa="13090" begin="210" end="222" Governor="7068" Dependent="7055" DependencyType="OC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12361" sofa="13090" begin="223" end="228" Governor="6990" Dependent="7068" DependencyType="RC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12369" sofa="13090" begin="228" end="229" Governor="7094" Dependent="7081" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12377" sofa="13090" begin="236" end="239" Governor="7094" Dependent="7107" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12385" sofa="13090" begin="239" end="240" Governor="7107" Dependent="7120" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12393" sofa="13090" begin="241" end="244" Governor="7172" Dependent="7133" DependencyType="OA" flavor="basic"/>
+    <dependency:Dependency xmi:id="12401" sofa="13090" begin="245" end="248" Governor="7172" Dependent="7146" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12409" sofa="13090" begin="249" end="259" Governor="7172" Dependent="7159" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12417" sofa="13090" begin="260" end="266" Governor="7107" Dependent="7172" DependencyType="RC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12425" sofa="13090" begin="266" end="267" Governor="7094" Dependent="7185" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12433" sofa="13090" begin="268" end="271" Governor="7224" Dependent="7198" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12441" sofa="13090" begin="272" end="286" Governor="7224" Dependent="7211" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12449" sofa="13090" begin="287" end="291" Governor="6990" Dependent="7224" DependencyType="APP" flavor="basic"/>
+    <dependency:Dependency xmi:id="12457" sofa="13090" begin="291" end="292" Governor="7224" Dependent="7237" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12465" sofa="13090" begin="293" end="302" Governor="7276" Dependent="7250" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12473" sofa="13090" begin="329" end="342" Governor="7224" Dependent="7276" DependencyType="RC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12481" sofa="13090" begin="342" end="343" Governor="7094" Dependent="7289" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12489" sofa="13090" begin="345" end="353" Governor="7315" Dependent="7302" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12497" sofa="13090" begin="361" end="364" Governor="7315" Dependent="7328" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12505" sofa="13090" begin="365" end="370" Governor="7315" Dependent="7341" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12513" sofa="13090" begin="371" end="374" Governor="7367" Dependent="7354" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12521" sofa="13090" begin="375" end="385" Governor="7315" Dependent="7367" DependencyType="OC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12529" sofa="13090" begin="385" end="386" Governor="7315" Dependent="7380" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12537" sofa="13090" begin="387" end="390" Governor="7315" Dependent="7393" DependencyType="CD" flavor="basic"/>
+    <dependency:Dependency xmi:id="12545" sofa="13090" begin="391" end="394" Governor="7419" Dependent="7406" DependencyType="OA" flavor="basic"/>
+    <dependency:Dependency xmi:id="12553" sofa="13090" begin="395" end="398" Governor="7393" Dependent="7419" DependencyType="CJ" flavor="basic"/>
+    <dependency:Dependency xmi:id="12561" sofa="13090" begin="399" end="402" Governor="7419" Dependent="7432" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12569" sofa="13090" begin="403" end="407" Governor="7419" Dependent="7445" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12577" sofa="13090" begin="407" end="408" Governor="7315" Dependent="7458" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12585" sofa="13090" begin="409" end="412" Governor="7484" Dependent="7471" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12593" sofa="13090" begin="419" end="423" Governor="7484" Dependent="7497" DependencyType="OA" flavor="basic"/>
+    <dependency:Dependency xmi:id="12601" sofa="13090" begin="423" end="424" Governor="7484" Dependent="7510" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12609" sofa="13090" begin="425" end="429" Governor="7640" Dependent="7523" DependencyType="CP" flavor="basic"/>
+    <dependency:Dependency xmi:id="12617" sofa="13090" begin="430" end="432" Governor="7640" Dependent="7536" DependencyType="EP" flavor="basic"/>
+    <dependency:Dependency xmi:id="12625" sofa="13090" begin="433" end="435" Governor="7640" Dependent="7549" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12633" sofa="13090" begin="436" end="439" Governor="7588" Dependent="7562" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12641" sofa="13090" begin="440" end="445" Governor="7588" Dependent="7575" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12649" sofa="13090" begin="446" end="455" Governor="7549" Dependent="7588" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12657" sofa="13090" begin="456" end="463" Governor="7640" Dependent="7601" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12665" sofa="13090" begin="464" end="467" Governor="7627" Dependent="7614" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12673" sofa="13090" begin="468" end="477" Governor="7640" Dependent="7627" DependencyType="OA" flavor="basic"/>
+    <dependency:Dependency xmi:id="12681" sofa="13090" begin="478" end="482" Governor="7484" Dependent="7640" DependencyType="OC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12689" sofa="13090" begin="482" end="483" Governor="7640" Dependent="7653" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12697" sofa="13090" begin="484" end="493" Governor="7718" Dependent="7666" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12705" sofa="13090" begin="494" end="497" Governor="7718" Dependent="7679" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12713" sofa="13090" begin="498" end="501" Governor="7705" Dependent="7692" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12721" sofa="13090" begin="502" end="506" Governor="7679" Dependent="7705" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12729" sofa="13090" begin="507" end="518" Governor="7744" Dependent="7718" DependencyType="OC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12737" sofa="13090" begin="519" end="521" Governor="7744" Dependent="7731" DependencyType="PM" flavor="basic"/>
+    <dependency:Dependency xmi:id="12745" sofa="13090" begin="522" end="528" Governor="7627" Dependent="7744" DependencyType="OC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12753" sofa="13090" begin="528" end="529" Governor="7484" Dependent="7757" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12761" sofa="13090" begin="530" end="533" Governor="7809" Dependent="7770" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12769" sofa="13090" begin="560" end="584" Governor="7770" Dependent="7796" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12777" sofa="13090" begin="590" end="593" Governor="7809" Dependent="7822" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12785" sofa="13090" begin="594" end="598" Governor="7809" Dependent="7835" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12793" sofa="13090" begin="599" end="609" Governor="7809" Dependent="7848" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12801" sofa="13090" begin="610" end="614" Governor="7874" Dependent="7861" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12809" sofa="13090" begin="615" end="618" Governor="7809" Dependent="7874" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12817" sofa="13090" begin="619" end="625" Governor="7900" Dependent="7887" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12825" sofa="13090" begin="626" end="631" Governor="7874" Dependent="7900" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12833" sofa="13090" begin="632" end="639" Governor="7809" Dependent="7913" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12841" sofa="13090" begin="640" end="642" Governor="7939" Dependent="7926" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12849" sofa="13090" begin="643" end="647" Governor="7809" Dependent="7939" DependencyType="PD" flavor="basic"/>
+    <dependency:Dependency xmi:id="12857" sofa="13090" begin="647" end="648" Governor="7939" Dependent="7952" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12865" sofa="13090" begin="649" end="653" Governor="8030" Dependent="7965" DependencyType="CP" flavor="basic"/>
+    <dependency:Dependency xmi:id="12873" sofa="13090" begin="654" end="657" Governor="8030" Dependent="7978" DependencyType="SB" flavor="basic"/>
+    <dependency:Dependency xmi:id="12881" sofa="13090" begin="658" end="669" Governor="8030" Dependent="7991" DependencyType="MO" flavor="basic"/>
+    <dependency:Dependency xmi:id="12889" sofa="13090" begin="670" end="678" Governor="8017" Dependent="8004" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12897" sofa="13090" begin="679" end="688" Governor="8030" Dependent="8017" DependencyType="OA" flavor="basic"/>
+    <dependency:Dependency xmi:id="12905" sofa="13090" begin="689" end="694" Governor="7926" Dependent="8030" DependencyType="CC" flavor="basic"/>
+    <dependency:Dependency xmi:id="12913" sofa="13090" begin="694" end="695" Governor="7809" Dependent="8043" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:Dependency xmi:id="12921" sofa="13090" begin="696" end="702" Governor="8069" Dependent="8056" DependencyType="NK" flavor="basic"/>
+    <dependency:Dependency xmi:id="12929" sofa="13090" begin="707" end="708" Governor="8069" Dependent="8082" DependencyType="PUNCT" flavor="basic"/>
+    <dependency:ROOT xmi:id="12937" sofa="13090" begin="4" end="10" Governor="6587" Dependent="6587" DependencyType="--" flavor="basic"/>
+    <dependency:ROOT xmi:id="12945" sofa="13090" begin="81" end="86" Governor="6782" Dependent="6782" DependencyType="--" flavor="basic"/>
+    <dependency:ROOT xmi:id="12953" sofa="13090" begin="230" end="235" Governor="7094" Dependent="7094" DependencyType="--" flavor="basic"/>
+    <dependency:ROOT xmi:id="12961" sofa="13090" begin="354" end="360" Governor="7315" Dependent="7315" DependencyType="--" flavor="basic"/>
+    <dependency:ROOT xmi:id="12969" sofa="13090" begin="413" end="418" Governor="7484" Dependent="7484" DependencyType="--" flavor="basic"/>
+    <dependency:ROOT xmi:id="12977" sofa="13090" begin="585" end="589" Governor="7809" Dependent="7809" DependencyType="--" flavor="basic"/>
+    <dependency:ROOT xmi:id="12985" sofa="13090" begin="703" end="707" Governor="8069" Dependent="8069" DependencyType="--" flavor="basic"/>
+    <type4:NamedEntity xmi:id="12993" sofa="13090" begin="534" end="584" value="ORG"/>
+    <duui:ReproducibleAnnotation xmi:id="13102" timestamp="1044341852985847" pipelineName="parliament" description="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" compression="xz"/>
+    <type12:GerVaderSentiment xmi:id="13009" sofa="13090" begin="0" end="715" sentiment="0.220275" subjectivity="0.0" pos="0.15924999999999997" neu="0.66725" neg="0.0485"/>
+    <type12:GerVaderSentiment xmi:id="13018" sofa="13090" begin="0" end="76" sentiment="0.6597" subjectivity="0.0" pos="0.375" neu="0.625" neg="0.0"/>
+    <type12:GerVaderSentiment xmi:id="13027" sofa="13090" begin="77" end="179" sentiment="-0.5667" subjectivity="0.0" pos="0.0" neu="0.702" neg="0.298"/>
+    <type12:GerVaderSentiment xmi:id="13036" sofa="13090" begin="180" end="343" sentiment="-0.2235" subjectivity="0.0" pos="0.0" neu="0.91" neg="0.09"/>
+    <type12:GerVaderSentiment xmi:id="13045" sofa="13090" begin="344" end="345" sentiment="0.0" subjectivity="0.0" pos="0.0" neu="0.0" neg="0.0"/>
+    <type12:GerVaderSentiment xmi:id="13054" sofa="13090" begin="345" end="408" sentiment="0.4404" subjectivity="0.0" pos="0.225" neu="0.775" neg="0.0"/>
+    <type12:GerVaderSentiment xmi:id="13063" sofa="13090" begin="409" end="529" sentiment="0.91" subjectivity="0.0" pos="0.474" neu="0.526" neg="0.0"/>
+    <type12:GerVaderSentiment xmi:id="13072" sofa="13090" begin="530" end="695" sentiment="0.5423" subjectivity="0.0" pos="0.2" neu="0.8" neg="0.0"/>
+    <type12:GerVaderSentiment xmi:id="13081" sofa="13090" begin="696" end="708" sentiment="0.0" subjectivity="0.0" pos="0.0" neu="1.0" neg="0.0"/>
+    <cas:Sofa xmi:id="13090" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Wir kennen diese Programme, aber, ich glaube, die große Allgemeinheit nicht. Das liegt vielleicht auch daran, dass sie offenbar nicht zum Erfolg&#10;                    geführt haben. Die ganzen Gelder, die wir da reingesteckt haben, haben das, was wir eigentlich wollen, ein barrierefreies Land, großteils nicht&#10;                    vorangebracht.  Deswegen müssen wir jetzt neu nachdenken, und das tun wir auch. Ich freue mich, dass es in der neuen Regierung endlich das Interesse gibt, gemeinsam mit der Bahn vorankommen zu wollen. Mit neuen&#10;                    Finanzierungsvorschlägen sind wir dann vielleicht auch bei diesem Thema endlich so weit, dass wir tatsächlich messbare Resultate sehen. Vielen Dank. "/>
+    <cas:View sofa="13090" members="1 6 13097 22 27 32 37 42 47 52 57 6574 6587 6600 6613 6626 6639 6652 6665 6678 6691 6704 6717 6730 6743 6756 6769 6782 6795 6808 6821 6834 6847 6860 6873 6886 6899 6912 6925 6938 6951 6964 6977 6990 7003 7016 7029 7042 7055 7068 7081 7094 7107 7120 7133 7146 7159 7172 7185 7198 7211 7224 7237 7250 7263 7276 7289 7302 7315 7328 7341 7354 7367 7380 7393 7406 7419 7432 7445 7458 7471 7484 7497 7510 7523 7536 7549 7562 7575 7588 7601 7614 7627 7640 7653 7666 7679 7692 7705 7718 7731 7744 7757 7770 7783 7796 7809 7822 7835 7848 7861 7874 7887 7900 7913 7926 7939 7952 7965 7978 7991 8004 8017 8030 8043 8056 8069 8082 8095 8100 8105 8110 8115 8120 8125 8130 8135 8140 8145 8150 8155 8160 8165 8170 8175 8180 8185 8190 8195 8200 8205 8210 8215 8220 8225 8230 8235 8240 8245 8250 8255 8260 8265 8270 8275 8280 8285 8290 8295 8300 8305 8310 8315 8320 8325 8330 8335 8340 8345 8350 8355 8360 8365 8370 8375 8380 8385 8390 8395 8400 8405 8410 8415 8420 8425 8430 8435 8440 8445 8450 8455 8460 8465 8470 8475 8480 8485 8490 8495 8500 8505 8510 8515 8520 8525 8530 8535 8540 8545 8550 8555 8560 8565 8570 8575 8580 8585 8590 8595 8600 8605 8610 8615 8620 8625 8630 8635 8640 8645 8650 8655 8660 8665 8670 8675 8680 8686 8692 8698 8704 8710 8716 8722 8728 8734 8740 8746 8752 8758 8764 8770 8776 8782 8788 8794 8800 8806 8812 8818 8824 8830 8836 8842 8848 8854 8860 8866 8872 8878 8884 8890 8896 8902 8908 8914 8920 8926 8932 8938 8944 8950 8956 8962 8968 8974 8980 8986 8992 8998 9004 9010 9016 9022 9028 9034 9040 9046 9052 9058 9064 9070 9076 9082 9088 9094 9100 9106 9112 9118 9124 9130 9136 9142 9148 9154 9160 9166 9172 9178 9184 9190 9196 9202 9208 9214 9220 9226 9232 9238 9244 9250 9256 9262 9268 9274 9280 9286 9292 9298 9304 9310 9316 9322 9328 9334 9340 9346 9352 9358 9364 9370 9376 9382 9405 9428 9451 9474 9497 9520 9543 9566 9589 9612 9635 9658 9681 9704 9727 9750 9773 9796 9819 9842 9865 9888 9911 9934 9957 9980 10003 10026 10049 10072 10095 10118 10141 10164 10187 10210 10233 10256 10279 10302 10325 10348 10371 10394 10417 10440 10463 10486 10509 10532 10555 10578 10601 10624 10647 10670 10693 10716 10739 10762 10785 10808 10831 10854 10877 10900 10923 10946 10969 10992 11015 11038 11061 11084 11107 11130 11153 11176 11199 11222 11245 11268 11291 11314 11337 11360 11383 11406 11429 11452 11475 11498 11521 11544 11567 11590 11613 11636 11659 11682 11705 11728 11751 11774 11797 11820 11843 11866 11889 11912 11935 11958 11981 12004 12027 12050 12073 12081 12089 12097 12105 12113 12121 12129 12137 12145 12153 12161 12169 12177 12185 12193 12201 12209 12217 12225 12233 12241 12249 12257 12265 12273 12281 12289 12297 12305 12313 12321 12329 12337 12345 12353 12361 12369 12377 12385 12393 12401 12409 12417 12425 12433 12441 12449 12457 12465 12473 12481 12489 12497 12505 12513 12521 12529 12537 12545 12553 12561 12569 12577 12585 12593 12601 12609 12617 12625 12633 12641 12649 12657 12665 12673 12681 12689 12697 12705 12713 12721 12729 12737 12745 12753 12761 12769 12777 12785 12793 12801 12809 12817 12825 12833 12841 12849 12857 12865 12873 12881 12889 12897 12905 12913 12921 12929 12937 12945 12953 12961 12969 12977 12985 12993 13102 13009 13018 13027 13036 13045 13054 13063 13072 13081"/>
+</xmi:XMI>

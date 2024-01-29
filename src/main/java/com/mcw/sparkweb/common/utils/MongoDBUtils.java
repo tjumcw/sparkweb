@@ -2,7 +2,6 @@ package com.mcw.sparkweb.common.utils;
 
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientOptions;
-import com.mongodb.MongoCredential;
 import com.mongodb.ServerAddress;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
@@ -15,7 +14,10 @@ import org.bson.conversions.Bson;
 import java.io.InputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Properties;
 
 /**
  * @author miaochangwei1
@@ -56,7 +58,7 @@ public class MongoDBUtils {
      * @throws IllegalArgumentException 如果数据库名称为空或null
      */
     private static void connect() {
-        MongoCredential credential = MongoCredential.createCredential(username, databaseName, password.toCharArray());
+//        MongoCredential credential = MongoCredential.createCredential(username, databaseName, password.toCharArray());
 
         MongoClientOptions options = MongoClientOptions.builder()
                 .connectionsPerHost(20)
@@ -69,8 +71,8 @@ public class MongoDBUtils {
                 .build();
         mongoClient = new MongoClient(new ServerAddress(host, port), options);
 
-        mongoClient = new MongoClient(new ServerAddress(host, port), Collections.singletonList(credential), options);
-//        database = mongoClient.getDatabase(databaseName);
+//        mongoClient = new MongoClient(new ServerAddress(host, port), Collections.singletonList(credential), options);
+        database = mongoClient.getDatabase(databaseName);
         System.out.println("Connect to database successfully!");
         System.out.println("MongoDatabase info is : " + database.getName());
     }
